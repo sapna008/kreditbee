@@ -6,7 +6,7 @@
 <title>KreditBee</title>
 <style>
   body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-  .header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f8f8f8; }
+  .header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #fdfad0; }
   .header img { height: 40px; }
   .main-content { padding: 20px; }
   .main-content h1 { font-size: 24px; }
@@ -15,62 +15,102 @@
   .blog-posts { display: flex; justify-content: space-between; }
   .blog-post { width: 30%; }
   .blog-post img { width: 100%; }
-  .sign-up { background-color: #f8f8f8; padding: 20px; margin-top: 20px; }
+  .sign-up {width: 50%; height: 50%; padding: 100px; background-color:white ;  text-align: center; padding: 20px; margin-top: 20px; }
   .sign-up form { display: flex; flex-direction: column; }
   .sign-up input { margin-bottom: 10px; padding: 10px; }
-  .footer { background-color: #FFD700; padding: 20px; text-align: center; }
+  .footer { background-color: #070707; padding: 20px; text-align: center; color: #f8f8f8;}
+  .forum{
+    padding-left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+
+  }
+  .abc{
+    background-color: #359fcf;
+    border: none;
+    height: 50px;
+    border-radius: 9px;
+}
+.ab{
+    text-align: center;
+    font-size: 500px;
+}
+.si{
+    color: rgb(184, 18, 18);
+    border: 2px solid rgb(184, 18, 18);
+    width: 80px;
+    height: 40px;
+    border-radius: 7px;
+}
+  
 </style>
+
 </head>
 <body>
 
 <div class="header">
-    <img src="logo.png" alt="KreditBee Logo">
-    <img src="menu-icon.png" alt="Menu Icon">
+    <img src="https://ik.imagekit.io/krazybee/kreditbee_in/logo_horizontal_BNqOuZWg_.svg" alt="KreditBee Logo">
+    <h5>Loans </h5>
+    <h5>Calculators</h5>
+    <h5>Credit Report</h5>
+    <h5>Refer & Earn</h5>
+
+    <img src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png" alt="Menu Icon">
+    <img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Menu Icon">
+    <button class="si"> SIGN UP</button>
 </div>
 
 <div class="main-content">
-    <h1>Why choose KreditBee?</h1>
+    <h1 class="ab">Why choose KreditBee?</h1>
     <div class="icons">
         <div class="icon">
-            <img src="bee-icon.png" alt="Bee Icon">
-            <p>Fast Approval</p>
+            <img src="https://cdn-icons-png.flaticon.com/128/4645/4645986.png" alt="Bee Icon">
+            <h4>Lower Intrest Rate</h4>
+            <p>Fast Approval </p>
         </div>
         <div class="icon">
-            <img src="approval-icon.png" alt="Approval Icon">
+            <img src="https://cdn-icons-png.flaticon.com/128/8948/8948006.png" alt="Approval Icon">
+            <h4>Lower Intrest Rate</h4>
             <p>Easy Process</p>
         </div>
         <div class="icon">
-            <img src="coins-icon.png" alt="Coins Icon">
+            <img src="https://cdn-icons-png.flaticon.com/128/1288/1288371.png" alt="Coins Icon">
+            <h4>Easy Repayment Option</h4>
             <p>Flexible Payments</p>
         </div>
     </div>
     <h2>Fresh from the blog</h2>
     <div class="blog-posts">
         <div class="blog-post">
-            <img src="throw-blanket.jpg" alt="Throw Blanket">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI1zvhCIJwIzhagkdbkeNgoVe7BHenRuIDrA&s" alt="Throw Blanket">
             <p>6 Comfy Throws for Cozy Autumn Nights</p>
         </div>
         <div class="blog-post">
-            <img src="wearable-art.jpg" alt="Wearable Art">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZDgvnHv-nMaNSAvYkOjfavWZNTUYpiEWow&s" alt="Wearable Art">
             <p>10 Beautiful Blogs That Explore Wearable Art</p>
         </div>
         <div class="blog-post">
-            <img src="gift-ideas.jpg" alt="Gift Ideas">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOsbzCzDOZusPNZoysiIO7MB9vEvfWnYbVtQ&s" alt="Gift Ideas">
             <p>The Best Gift Ideas for Kids at All Price Points</p>
         </div>
     </div>
 </div>
 
-<div class="sign-up">
-    <h2>Create Account</h2>
-    <form>
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
-        <input type="password" placeholder="Password">
-        <input type="password" placeholder="Confirm Password">
-        <button type="submit">Sign Up</button>
-        <button type="button">Sign In</button>
-    </form>
+<div class="forum">
+    <div class="sign-up">
+        <h2>Create Account</h2>
+        <form>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">
+            <button class="abc" type="submit">Sign Up</button>
+            
+        </form>
+    </div>
 </div>
 
 <div class="footer">
